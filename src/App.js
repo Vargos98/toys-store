@@ -16,10 +16,6 @@ const App = () => {
       <Carousel/>
       <Products/>
       <Location/>
-
-      
-      
-
     </div>
   )
 }
