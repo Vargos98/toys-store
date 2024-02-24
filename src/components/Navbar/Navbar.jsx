@@ -1,18 +1,25 @@
 import React from 'react'
+import {FaBars, FaTimes} from "react-icons/fa"
 import "./navbar.css"
-import logo from "../../assets/logo.png"
+// import logo from "../../assets/logo.png"
 const Navbar = () => {
   return (
-    <div className='navbar-container'>
+    <nav className='navbar-container'>
         {/* <img src={logo} alt="logo" className='nav-logo' /> */}
-        <a href="#" className='head'>Krishna Toys</a>
-        <ul className='nav-items'>
-          <li className='nav-li'>About</li>
-          <li className='nav-li'>Location</li>
-          <li className='nav-li'>Contact</li>
-        </ul>
+        <a href="/" className='head'>Krishna Toys</a>
+        <div className='nav-items'>
+          <a href='/' className='nav-li'>About</a>
+          <a href='/' className='nav-li'>Location</a>
+          <a href='/' className='nav-li'>Contact</a>
+          <button>
+            <FaBars/>
+          </button>
+        </div>
+        <button>
+          <FaTimes/>
+        </button>
     
-    </div>
+    </nav>
   )
 }
 

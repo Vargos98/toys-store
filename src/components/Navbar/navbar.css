@@ -22,7 +22,10 @@
   width: 5rem;
   margin-left: 3rem;
 } */
-
+.nav-li{
+  text-decoration: none;
+  color: yellow;
+}
 .nav-items{
   font-size: 1.5rem;
   cursor: pointer;
@@ -33,8 +36,12 @@
   color: yellow;
   list-style: none;
   font-family: Kode Mono;
+
 }
 
-.nav-li,.head:hover {
+.nav-li:hover{
+  color: orange;
+}
+.head:hover {
   color: orange;
 }
