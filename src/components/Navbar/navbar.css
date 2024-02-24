@@ -1,0 +1,40 @@
+.navbar-container{
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.head{
+  font-size: 3rem;
+  margin-left: 4.5rem;
+  font-weight: bold;
+  color: yellow;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Kode Mono;
+}
+/* .nav-logo{
+  width: 5rem;
+  width: 5rem;
+  margin-left: 3rem;
+} */
+
+.nav-items{
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: yellow;
+  list-style: none;
+  font-family: Kode Mono;
+}
+
+.nav-li,.head:hover {
+  color: orange;
+}
