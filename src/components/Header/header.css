@@ -8,13 +8,22 @@
   justify-content: space-evenly;
   gap: 1.2vw;
   flex-wrap: wrap;
+
  
  
 }
 
+.high:hover{
+  color: orange;
+}
+
+
 .header-img{
   width: 440px;
   height: 500px;
+  cursor: pointer;
+  overflow: hidden;
+ 
 }
 .high{
   color: black;
@@ -30,7 +39,7 @@
   color: rgba(0, 0, 0, 0.651);
   font-size: 5vw;
   text-align:left;
-
+  cursor: pointer;
   font-weight: bold;
   font-family: EB Garamond;
   z-index: 1;
