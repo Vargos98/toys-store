@@ -16,6 +16,9 @@
   width: 440px;
   height: 500px;
 }
+.high{
+  color: black;
+}
 .left{
   margin-top: 70px;
   padding: 40px 30px 20px 50px;
@@ -48,7 +51,7 @@
     visibility: hidden;
   }
   .header-para{
-    color: black;
+    color:chocolate;
     font-size: 3rem;
     z-index: 1;
 
