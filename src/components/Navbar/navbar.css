@@ -13,6 +13,7 @@ header {
 }
 .logo{
   height: 120px;
+	/* transition: 1s ease-in-out; */
 
 }
 
@@ -52,6 +53,9 @@ nav {
   .nav-btn:hover{
     color: orange;
   }
+	/* .logo:hover{
+		transform: scale(2);
+	} */
 
 	header nav {
 		position: fixed;

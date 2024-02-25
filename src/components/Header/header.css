@@ -1,23 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&display=swap');
+
 .header{
   width: 100%;
   height: 100vh;
-  background-color: antiquewhite;
+  background-image: url(../../assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3.4rem;
   flex-wrap: nowrap;
+  z-index: 0;
+ 
 }
-.left{
-  width: 400px;
-}
-.left p{
-  font-size: 30px;
-}
-.right{
-  width: 400px;
+.header-para{
+  position: absolute;
+  top: 10rem;
+  color: yellow;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: EB Garamond;
+  z-index: 1;
+  
+
 }
 
-.right img{
-  width: 300px;
+.shade{
+  background-color: rgba(0, 0, 0, 0.274);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+@media only screen and (max-width: 1024px){
+  .header{
+    width: 100%;
+    height: 100vh; 
+    background-image: url(../../assets/background.png);
+    background-size: cover;
+  }
+  .header-para{
+
+    color: yellow;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    
+  
+  }
 }
