@@ -4,7 +4,7 @@ import background from "../../assets/background.png"
 import tria from "../../assets/2.jpg"
 const Header = () => {
   return (
-    <div className='header'>
+    <div className='header' id='home'>
       {/* <div className="shade"></div> */}
     
         <div className="left">
