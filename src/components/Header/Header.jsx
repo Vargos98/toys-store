@@ -5,7 +5,7 @@ import background from "../../assets/background.png"
 const Header = () => {
   return (
     <div className='header' id='home'>
-      {/* <div className="shade"></div> */}
+     
 
       <div className="left">
         <p className='header-para'>
