@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='header'>
     <div className="shade"></div>
-      <p className='header-para'>The Toys <br/>you can Trust On!</p>
+      <p className='header-para'>The <br/>Toys <br/>you can <br/>Trust On!</p>
       
     </div>
   )

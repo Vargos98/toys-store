@@ -17,9 +17,10 @@
 .header-para{
   position: absolute;
   top: 10rem;
-  color: yellow;
-  font-size: 6rem;
-  text-align: center;
+  left: 16rem;
+  color: rgb(230, 230, 0);
+  font-size: 5rem;
+  text-align: left;
   font-weight: bold;
   font-family: EB Garamond;
   z-index: 1;
