@@ -49,6 +49,7 @@ nav {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
+		
 	}
   .nav-btn:hover{
     color: orange;
